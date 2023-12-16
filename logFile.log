@@ -1,0 +1,21 @@
+2023-12-16 19:31:30.617 [main] DEBUG main.java.fr.mickael.controller.MainController - Main controller constructor 'initialisation'.
+2023-12-16 19:31:33.262 [main] DEBUG main.java.fr.mickael.views.contracts.Launcher - Method getInput() of the class Launcher
+2023-12-16 19:31:42.888 [main] DEBUG main.java.fr.mickael.views.contracts.DifficultyChoice - run method display ()
+2023-12-16 19:31:42.888 [main] DEBUG main.java.fr.mickael.views.contracts.DifficultyChoice - run method getInput()
+2023-12-16 19:31:43.841 [main] INFO  main.java.fr.mickael.business.GameFactory - Create an instance of More or Less with a human attacker and computer defender
+2023-12-16 19:31:43.843 [main] DEBUG main.java.fr.mickael.business.MoreOrLess - running play() of the MoreOrLess game.
+2023-12-16 19:31:43.843 [main] INFO  main.java.fr.mickael.business.MoreOrLess - variables initializing
+2023-12-16 19:31:43.845 [main] DEBUG main.java.fr.mickael.model.Computer - running generateSecreteCode(). Return an int[] generate by the private method getSecretCode().
+2023-12-16 19:31:43.845 [main] INFO  main.java.fr.mickael.business.MoreOrLess - The secret code is [2, 5, 3, 2]
+2023-12-16 19:32:08.556 [main] DEBUG main.java.fr.mickael.business.MoreOrLess - run method compareCode().
+Parameters : int[] guessCode = [1, 2, 3, 4]
+int[] secretCode = [2, 5, 3, 2]
+2023-12-16 19:32:15.303 [main] DEBUG main.java.fr.mickael.business.MoreOrLess - run method compareCode().
+Parameters : int[] guessCode = [2, 3, 3, 3]
+int[] secretCode = [2, 5, 3, 2]
+2023-12-16 19:32:22.568 [main] DEBUG main.java.fr.mickael.business.MoreOrLess - run method compareCode().
+Parameters : int[] guessCode = [2, 4, 3, 1]
+int[] secretCode = [2, 5, 3, 2]
+2023-12-16 19:32:37.335 [main] DEBUG main.java.fr.mickael.business.MoreOrLess - run method compareCode().
+Parameters : int[] guessCode = [2, 5, 3, 2]
+int[] secretCode = [2, 5, 3, 2]
